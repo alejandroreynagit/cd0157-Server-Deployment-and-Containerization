@@ -19,7 +19,7 @@ phases:
       # To download a specific version v1.27.9 on Linux, use:
       - curl -LO https://dl.k8s.io/release/v1.34.0/bin/linux/amd64/kubectl
       # Download the kubectl checksum file
-      - curl -LO https://dl.k8s.io/release/v1.34.0/bin/linux/amd64/kubectl/sha256
+      - curl -LO https://dl.k8s.io/release/v1.34.0/bin/linux/amd64/kubectl.sha256
       # Validate the kubectl binary against the checksum file
       - sha256sum -c kubectl.sha256
       # Install kubectl
